@@ -1,32 +1,55 @@
-const botonesMas = document.querySelectorAll(".mas");
-const botonesMenos = document.querySelectorAll(".menos");
+fetch("data/productos.json")
+.then(respuesta => respuesta.json())
+.then(productos => {
 
-botonesMas.forEach(boton=>{
+const contenedor =
+document.getElementById("productos");
 
-boton.addEventListener("click",()=>{
+window.listaProductos = productos;
 
-let cantidad = boton.previousElementSibling;
+productos.forEach(producto => {
 
-cantidad.textContent =
-parseInt(cantidad.textContent)+1;
+contenedor.innerHTML += `
+
+<div class="card">
+
+<img src="${producto.imagen}" alt="${producto.nombre}">
+
+<h3>${producto.nombre}</h3>
+
+<p>${producto.descripcion}</p>
+
+<p>$${producto.precio}</p>
+
+<button onclick="agregarCarrito(${producto.id})">
+Añadir al carrito
+</button>
+
+</div>
+
+`;
 
 });
 
 });
 
-botonesMenos.forEach(boton=>{
+function agregarCarrito(id){
 
-boton.addEventListener("click",()=>{
+const producto =
+window.listaProductos.find(
+p => p.id === id
+);
 
-let cantidad = boton.nextElementSibling;
+let carrito =
+JSON.parse(localStorage.getItem("carrito")) || [];
 
-if(parseInt(cantidad.textContent)>1){
+carrito.push(producto);
 
-cantidad.textContent =
-parseInt(cantidad.textContent)-1;
+localStorage.setItem(
+"carrito",
+JSON.stringify(carrito)
+);
+
+alert("Producto agregado al carrito");
 
 }
-
-});
-
-});
