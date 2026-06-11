@@ -1,4 +1,24 @@
 fetch("data/productos.json")
+  function agregarCarrito(id){
+
+const producto =
+window.listaProductos.find(
+p => p.id === id
+);
+
+let carrito =
+JSON.parse(localStorage.getItem("carrito")) || [];
+
+carrito.push(producto);
+
+localStorage.setItem(
+"carrito",
+JSON.stringify(carrito)
+);
+
+alert("Producto agregado");
+
+}
 .then(respuesta => respuesta.json())
 .then(productos => {
 
