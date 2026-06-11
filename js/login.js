@@ -1,8 +1,14 @@
-const formulario = document.getElementById("formLogin");
+const formulario =
+document.getElementById("formLogin");
 
-formulario.addEventListener("submit", function(event){
+formulario.addEventListener("submit",function(e){
 
-event.preventDefault();
+e.preventDefault();
+
+sessionStorage.setItem(
+"usuario",
+"Antonella"
+);
 
 window.location.href="index.html";
 
