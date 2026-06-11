@@ -7,6 +7,7 @@ menu.innerHTML = `
 <ul>
 <li><a href="index.html">Inicio</a></li>
 <li><a href="login.html">Login</a></li>
+<li><a href="carrito.html">Carrito</a></li>
 <li><a href="registro.html">Registro</a></li>
 <li><a href="#" id="logout">Cerrar Sesión</a></li>
 </ul>
