@@ -1,0 +1,44 @@
+[
+{
+"id":1,
+"nombre":"Hamburguesa Clásica",
+"descripcion":"Carne, queso cheddar y lechuga.",
+"precio":12000,
+"imagen":"img/hamburguesa.webp"
+},
+{
+"id":2,
+"nombre":"Hamburguesa Doble",
+"descripcion":"Doble carne y doble cheddar.",
+"precio":15000,
+"imagen":"img/hamburguesa.webp"
+},
+{
+"id":3,
+"nombre":"Hamburguesa Bacon",
+"descripcion":"Con panceta crocante.",
+"precio":16000,
+"imagen":"img/hamburguesa.webp"
+},
+{
+"id":4,
+"nombre":"Papas Grandes",
+"descripcion":"Papas fritas crocantes.",
+"precio":5000,
+"imagen":"img/papas.webp"
+},
+{
+"id":5,
+"nombre":"Papas Cheddar",
+"descripcion":"Con cheddar y verdeo.",
+"precio":6500,
+"imagen":"img/papas.webp"
+},
+{
+"id":6,
+"nombre":"Papas Bacon",
+"descripcion":"Con cheddar y panceta.",
+"precio":7000,
+"imagen":"img/papas.webp"
+}
+]
