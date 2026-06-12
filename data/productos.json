@@ -36,9 +36,23 @@
 },
 {
 "id":6,
-"nombre":"Papas Bacon",
-"descripcion":"Con cheddar y panceta.",
+"nombre":"Coca Cola",
+"descripcion":"comun",
 "precio":7000,
+"imagen":"img/Papas.webp"
+}
+  {
+"id":7,
+"nombre":"Sprite",
+"descripcion":"comun",
+"precio":7000,
+"imagen":"img/Papas.webp"
+}
+  {
+"id":8,
+"nombre":"Agua Mineral",
+"descripcion":"sin gas",
+"precio":5000,
 "imagen":"img/Papas.webp"
 }
 ]
