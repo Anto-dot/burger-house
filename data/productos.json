@@ -11,14 +11,14 @@
 "nombre":"Hamburguesa Doble",
 "descripcion":"Doble carne y doble cheddar.",
 "precio":15000,
-"imagen":"img/Hamburguesa.webp"
+"imagen":"img/Hamburguesa2.webp"
 },
 {
 "id":3,
 "nombre":"Hamburguesa Bacon",
 "descripcion":"Con panceta crocante.",
 "precio":16000,
-"imagen":"img/hamburguesa.webp"
+"imagen":"img/hamburguesa3.webp"
 },
 {
 "id":4,
@@ -32,7 +32,7 @@
 "nombre":"Papas Cheddar",
 "descripcion":"Con cheddar y verdeo.",
 "precio":6500,
-"imagen":"img/Papas.webp"
+"imagen":"img/Papas2.webp"
 },
 {
 "id":6,
@@ -46,13 +46,13 @@
 "nombre":"Sprite",
 "descripcion":"comun",
 "precio":7000,
-"imagen":"img/Papas.webp"
+"imagen":"img/Bebida2.webp"
 }
   {
 "id":8,
 "nombre":"Agua Mineral",
 "descripcion":"sin gas",
 "precio":5000,
-"imagen":"img/Papas.webp"
+"imagen":"img/Bebida3.webp"
 }
 ]
