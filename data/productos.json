@@ -4,7 +4,7 @@
 "nombre":"Hamburguesa Clásica",
 "descripcion":"Carne, queso cheddar y lechuga.",
 "precio":12000,
-"imagen":"img/Hamburguesa.webp"
+"imagen":"img/Hamburguesa1.webp"
 },
 {
 "id":2,
@@ -25,7 +25,7 @@
 "nombre":"Papas Grandes",
 "descripcion":"Papas fritas crocantes.",
 "precio":5000,
-"imagen":"img/Papas.webp"
+"imagen":"img/Papas1.webp"
 },
 {
 "id":5,
@@ -39,7 +39,7 @@
 "nombre":"Coca Cola",
 "descripcion":"comun",
 "precio":7000,
-"imagen":"img/Papas.webp"
+"imagen":"img/Bebida 1.webp"
 }
   {
 "id":7,
